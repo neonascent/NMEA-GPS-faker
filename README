@@ -1,0 +1,2 @@
+NMEA_GPS_faker - Arduino sketch that with function to send an arbitrary int value out as NMEA GPS
+WiFly_SignalStrengthPoll - Gets signal strength from WiFly shield, then sends it out to Serial as altitude in NMEA GPS data

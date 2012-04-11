@@ -112,9 +112,7 @@ void loop()
 void sendValue(int value) {
   digitalWrite(13, HIGH);  
   Serial.println(GPRMC());
-  delay(100);
   Serial.println(GPGGA(value));
-  delay(100);
   digitalWrite(13, LOW);  
 }
 
